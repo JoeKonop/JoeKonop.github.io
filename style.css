@@ -2,9 +2,18 @@
 /* CSS Document */
 
 .Block {
-  background-color: black;
-  color: white;
-  margin: 20px;
-  padding: 20px;
-	font-size: 20px;
+  color: black;
+  padding: 40px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 200%;
+}
+
+.Title {
+  color: black;
+  text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+	font-size: 300%;
+	font-weight: bold;
 }
