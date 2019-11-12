@@ -1,16 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
 
-.Block {
-  color: black;
+.BlockLarge {
+  color: white;
   padding: 40px;
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		font-size: 200%;
+    font-weight: normal;
+}
+
+.Block {
+  color: white;
+  padding: 40px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: normal;
+    font-size: 150%;
 }
 
 .Title {
-  color: black;
+  color: white;
   text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 

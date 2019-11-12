@@ -6,20 +6,29 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-	
+<body style="background-color:#191919">
+
 	<br>
 	<div class = "Title">
 	Welcome to code town, population: me.
 	</div>
 	<br>
-	
-	<div class = "Block">
-	Here we are, in my little corner of the internet.  Welcome, and mind the bugs.
+
+	<div class = "BlockLarge">
+	Here we are, in my little corner of the internet.  Do come in, and mind the bugs.
 	</div>
-		
-	<button> Press me! </button>
-	
+
+	<div class = "Block" id = egg>
+	Who am I?
+	</div>
+
+	<img src="obamium.png" alt="v o i d" onclick="myFunction()" >
+
+	<script>
+	function myFunction() {
+	  document.getElementById("egg").innerHTML = "YOU CLICKED ME!";
+	}
+	</script>
+
 </body>
 </html>
-
