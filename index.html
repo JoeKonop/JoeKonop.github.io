@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <meta charset="utf-8">
 <title>index.html</title>
@@ -16,29 +17,36 @@
 	<div class = "BlockLarge">
 	Here we are, in my little corner of the internet. &nbspDo come in, and mind the bugs.
 	</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 	<table class = "Block" id = egg width="50%" align="center">
 		<tr>
 			<td>
 	So, Who am I? I'm a Games Programming student at Staffs, specializing in C++ and C#. C# first and foremost,
 	 as I was raised on it and frequent it whenever I need to whip up a prototype. I use my spare time to make small
-	  indie games, which suffer heavily from 'bad programmer art' syndrome. Here you'll find some of my latest creations, hot off the press.
+	  indie games, which suffer heavily from 'bad programmer art' syndrome. I'm also a gaming fanatic, which is where the rest of my time goes,  Here you'll find some of my latest creations, hot off the press.
 	</td>
 	<td>
-		<img src="face.jpg" width="200px" height="200px" >
+		<img src="face.jpg" style="max-width:90%" >
 	</td>
 	</tr>
-	</span>
+</table>
 
-	<table style="width:80%; padding:100px;" align="center" id = "chegg">
+	<br><br><br><br><br><br><br><br><br><br>
+
+	<p class="BlockLarge"><u>Projects</u></p>
+
+	<table style="width:80%; padding:50px;" class = "Table" align="center" id = "chegg">
 	</table>
 
-	<p class="Footer">
-<br>
-Socials:
-<br>
-	</p>
+	<table class="Footer">
+		<tr>
+<td>Socials</td>
+		</tr>
+		<tr>
+<td>Twitter</td>
+		</tr>
+</table>
 
 	<script>
 	function mouseOver(id) {
@@ -71,16 +79,16 @@ Socials:
 	}
 
  var pips = [
-	 new Pip(`<p class = "text">Untitled. C#, XNA, 3D</p> <a href="https://www.w3schools.com"> <img src="bois2.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)" width="500" height="250"> </a>`),
-	 new Pip(`<p class = "text">Harmonic Cubes. C#, XNA, 3D</p> <a href="https://www.w3schools.com"> <img src="cubes1.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
-	 new Pip(`<p class = "text">Ray Casting. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="raycast1.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
+	 new Pip(`<p class = "text">Untitled. C#, XNA, 3D</p> <a href="https://www.w3schools.com"> <img src="bois2.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"  "width="500" height="250"> </a>`),
+	 new Pip(`<p class = "text">Harmonic Cubes. C#, XNA, 3D</p> <a href="https://www.w3schools.com"> <img src="cubes1.gif"  style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)" "width="500" height="250"> </a>`),
+	 new Pip(`<p class = "text">Ray Casting. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="raycast1.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)" "width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Terrain Flyby. C#, XNA, 3D</p> <a href="https://www.w3schools.com"> <img src="vapor1.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Maze Generator. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="maze.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Flocking Demo. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="boids.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Space Invaders. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="spaceinvader.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Dungeon Crawler. C#, XNA, 3D</p> <a href="https://www.w3schools.com"> <img src="3dmaze.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Minesweeper 3D. C#, XNA, 3D</p> <a href="https://www.w3schools.com"> <img src="minesweeper.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
-	 new Pip(`<p class = "text">The Matrix Screensaver. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="matrix saver.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
+	 new Pip(`<p class = "text">Matrix Screensaver. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="matrix saver.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Animated Quicksort. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="quicksort.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Tetris. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="tetris.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
 	 new Pip(`<p class = "text">Labyrinth. C#, XNA, 2D</p> <a href="https://www.w3schools.com"> <img src="laby.gif" style = "box-shadow: 0px 0px 5px grey;" onmouseover = "mouseOver(this)" onmouseleave="mouseOff(this)"width="500" height="250"> </a>`),
@@ -98,6 +106,7 @@ for (var i = 0; i < pips.length; i++)
 	}
 
 	var x = table.rows[table.rows.length-1].insertCell(i%3);
+	//x.className = "Table";
 	x.innerHTML = pips[i].text;
 }
 
