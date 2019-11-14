@@ -3,7 +3,7 @@
 
 .BlockLarge {
   color: white;
-  padding: 40px;
+  padding: 0px;
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		font-size: 200%;
@@ -12,18 +12,47 @@
 
 .Block {
   color: white;
-  padding: 40px;
+  padding: 70px;
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		font-weight: normal;
     font-size: 150%;
 }
 
+.Footer {
+  color: black;
+  padding: 0px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: normal;
+    font-size: 150%;
+    background-color:white;
+}
+
+.text {
+  color: white;
+  padding: 0px;
+	text-align: left;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: normal;
+    font-size: 140%;
+}
+
+.Table {
+  color: white;
+  padding: 0px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: normal;
+    font-size: 150%;
+    box-shadow: 0px 0px 15px grey;
+}
+
 .Title {
   color: white;
   text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-
-	font-size: 300%;
+padding: 100px;
+	font-size: 450%;
 	font-weight: bold;
 }
